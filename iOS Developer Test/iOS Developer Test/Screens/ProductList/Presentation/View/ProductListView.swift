@@ -26,6 +26,7 @@ struct ProductListView<Model>: View where Model: ProductListViewModelProtocol {
                 }
             }
             .navigationTitle("Product List")
+            .modifier(ActivityIndicatorModifier(isLoading: viewModel.isLoading))
         }
     }
 }

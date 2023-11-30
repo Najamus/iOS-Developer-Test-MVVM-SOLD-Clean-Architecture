@@ -30,6 +30,8 @@
 		77EAA2F42B18D8B6005B7F74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EAA2F32B18D8B6005B7F74 /* Product.swift */; };
 		77EAA2F92B18E4D5005B7F74 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EAA2F82B18E4D5005B7F74 /* AppRouter.swift */; };
 		77EAA2FB2B18E57B005B7F74 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EAA2FA2B18E57B005B7F74 /* DependencyInjection.swift */; };
+		77EAA3032B1902FA005B7F74 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EAA3022B1902FA005B7F74 /* ActivityIndicator.swift */; };
+		77EAA3052B190369005B7F74 /* ActivityIndicatorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EAA3042B190369005B7F74 /* ActivityIndicatorModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		77EAA2F32B18D8B6005B7F74 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		77EAA2F82B18E4D5005B7F74 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		77EAA2FA2B18E57B005B7F74 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		77EAA3022B1902FA005B7F74 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		77EAA3042B190369005B7F74 /* ActivityIndicatorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -302,7 +306,8 @@
 		77EAA2F62B18E449005B7F74 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				77EAA2DB2B18BD11005B7F74 /* CacheAsyncImage.swift */,
+				77EAA3012B1902DF005B7F74 /* ActivityIndicator */,
+				77EAA3002B1902CC005B7F74 /* CacheAsyncImage */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -346,6 +351,23 @@
 			children = (
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		77EAA3002B1902CC005B7F74 /* CacheAsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				77EAA2DB2B18BD11005B7F74 /* CacheAsyncImage.swift */,
+			);
+			path = CacheAsyncImage;
+			sourceTree = "<group>";
+		};
+		77EAA3012B1902DF005B7F74 /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				77EAA3022B1902FA005B7F74 /* ActivityIndicator.swift */,
+				77EAA3042B190369005B7F74 /* ActivityIndicatorModifier.swift */,
+			);
+			path = ActivityIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +446,7 @@
 				77EAA2E72B18D109005B7F74 /* ProductListRepository.swift in Sources */,
 				77EAA2CC2B18AEAD005B7F74 /* ProductCard.swift in Sources */,
 				77EAA2C32B18A327005B7F74 /* ProductDataModel.swift in Sources */,
+				77EAA3052B190369005B7F74 /* ActivityIndicatorModifier.swift in Sources */,
 				77EAA2E32B18CC0C005B7F74 /* ProductListDataSource.swift in Sources */,
 				77EAA2F02B18D4E5005B7F74 /* ProductListRepositoryProtocol.swift in Sources */,
 				77EAA2DC2B18BD11005B7F74 /* CacheAsyncImage.swift in Sources */,
@@ -434,6 +457,7 @@
 				77EAA29F2B1890D1005B7F74 /* iOS_Developer_TestApp.swift in Sources */,
 				77EAA2CA2B18A9AB005B7F74 /* ProductListEndpoint.swift in Sources */,
 				77EAA2C72B18A916005B7F74 /* ProductResponseDataModel.swift in Sources */,
+				77EAA3032B1902FA005B7F74 /* ActivityIndicator.swift in Sources */,
 				77EAA2B12B1893B7005B7F74 /* Endpoint.swift in Sources */,
 				77EAA2DA2B18B361005B7F74 /* ProductListRouter.swift in Sources */,
 				77EAA2F42B18D8B6005B7F74 /* Product.swift in Sources */,
