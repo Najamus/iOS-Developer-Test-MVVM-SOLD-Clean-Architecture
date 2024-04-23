@@ -9,14 +9,14 @@ import Foundation
 
 // MARK: - Dependency Injection Delegate -
 protocol DependencyInjectionProtocol {
-    static func getProductListRepository() -> ProductListRepository
+    static func getProductListRepository() -> ProductListRepositoryProtocol
 }
 
 // MARK: - Enum Dependency Injection -
 enum DependencyInjection: DependencyInjectionProtocol {
     
     // MARK: - Get Product List Repository -
-    static func getProductListRepository() -> ProductListRepository {
+    static func getProductListRepository() -> ProductListRepositoryProtocol {
         return ProductListRepository()
     }
     
